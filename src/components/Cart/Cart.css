@@ -1,0 +1,44 @@
+.mt {
+    margin-top: 110px;
+}
+.mt-bg {
+    margin-top: 55px;
+    background: #ccc;
+}
+.cartTable .table .img-block img {
+    width: 150px;
+    max-width: 100%;
+}
+.cartTable .table tr th {
+    border-bottom-width: 0 !important;
+    border-bottom: none !important;
+    font-family: cursive;
+}
+.cartTable .table tr td,
+.cartTable .table tr th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+.header-heading {
+    font-size: 2.5rem;
+    font-family: cursive;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.cartTable .btn-remove,
+.cartTable .btn-remove:hover,
+.cartTable .btn-remove:focus{
+    background: #521751;
+    color: white;
+    font-weight: 600;
+    box-shadow: none;
+    padding: 0.1rem 0.75rem;
+}
+
+@media(max-width:768px){
+    .table .img-block img {
+        width: 100px;
+        max-width: none;
+    }
+}

@@ -1,0 +1,6 @@
+.formRegisterBlock .form-control:focus {
+    background-color: #fff;
+    border-color: #521751;
+    outline: 0;
+    box-shadow: none;
+}

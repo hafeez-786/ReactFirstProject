@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/2017YellowLabelChardonnay.jpg",
+        "name": "Yellow Label Chardonnay",
+        "price": "$25.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 2,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/PR19.jpg",
+        "name": "Offshoot Pinot Noir Rose",
+        "price": "$18.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 3,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/PB.jpg",
+        "name": "Vintage Blend Pinot Noir",
+        "price": "$25.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 4,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/LH19-SPQRAZ.jpg",
+        "name": "Late Harvest Semillon",
+        "price": "$20.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 5,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/OffshootVermentino-IRZBCX.jpg",
+        "name": "Offshoot Vermentino",
+        "price": "$18.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 6,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/YMAG16-TPBRUQ.jpg",
+        "name": "Yellow Label 1.5l - Boxed",
+        "price": "$80.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 4,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/LH19-SPQRAZ.jpg",
+        "name": "Late Harvest Semillon",
+        "price": "$20.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    },
+    {
+        "id": 2,
+        "image": "https://www.scarboroughwine.com.au/assets/images/products/thumbnails/PR19.jpg",
+        "name": "Offshoot Pinot Noir Rose",
+        "price": "$18.00",
+        "altText": "Item",
+        "detail": "Lorem ipsum dolor sit amet, ut cum platonem delicata, id eius disputationi sea. Pri veritus convenire iracundia ad, veri praesent dissentiet sea et. Postea explicari ius id, his no quodsi definiebas temporibus. Lorem facete cu eos, ex errem iisque pro. Placerat moderatius duo an, id vel fabulas phaedrum pericula, pri id alii vidisse explicari. Id nam choro docendi pertinacia."
+    }
+]

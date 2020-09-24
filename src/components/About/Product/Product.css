@@ -1,0 +1,117 @@
+.Products-heading {
+    padding-top: 0px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.Products-heading h1 {
+    font-size: 2rem;
+    font-family: cursive;
+}
+.Products-heading a {
+    color: #521751;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
+}
+.Products-heading a:hover {
+    padding: 8px 12px;
+    background: #521741;
+    color: #fff;
+}
+.Product-list {
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+.Wine-Product {
+    position: relative;
+    margin: 10px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Wine-Product:hover .Wine-action {
+    display: block;
+}
+.price {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+/*.Wine-Product::before {
+    content: "";
+    background: #f3f4f5;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}*/
+.Product-list > .Wine-Product > a > img {
+    width: 400px;
+    max-width: 100%;
+    margin-top: -70px;
+}
+.Wine-Product h3.heading {
+    font-size: 18px;
+    margin-top: 1.5rem;
+}
+.Wine-Product h3.heading > a {
+    color: #343434;
+    cursor: pointer;
+    text-decoration: none;
+}
+hr.line {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.Wine-action {
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #fff;
+    opacity: 1;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    box-shadow: 0 0px 10px 0px rgba(0,0,0,0.3);
+}
+.Wine-action .price {margin-bottom: 0;}
+.Wine-action .rating {margin-bottom: 10px;}
+.Wine-action .rating span {
+    font-size: 18px;
+    color: #ffbd39;
+}
+.Wine-action a.btn {
+    background: #521751;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: none;
+    transition: none;
+    text-decoration: none;
+}
+.Wine-action a.btn:hover,
+.Wine-action a.btn:visited,
+.Wine-action a.btn:active {
+    box-shadow: none;
+}
+
+
+@media(max-width:767px) {
+    .Product-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Wine-Product {
+        margin-bottom: 90px;
+    }
+    .Product-list > .Wine-Product > a > img {
+        width: 100%;
+    }
+    .bg {margin-top: 0;}
+}

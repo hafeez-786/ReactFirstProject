@@ -1,0 +1,28 @@
+.Order-table .table tr th {
+    border-top: none;
+}
+.Order-table .table tr th,
+.Order-table .table tr td {
+    text-align: left;
+}
+.Order-table .table tr > td:nth-child(1) {
+    font-weight: 600;
+}
+.toggleDiv {
+    border: 1px solid #dee2e6;
+    padding: 0.9rem;
+    margin-bottom: 1rem;
+}
+.toggleDiv a {
+    cursor: pointer;
+    color: #930077;
+}
+.toggleDiv a:hover,
+.toggleDiv a:focus {
+    color: #930077;
+}
+.bank-details .btn {
+    padding: 0.5rem;
+    font-size: 1.5em;
+    margin-top: 15px;
+}

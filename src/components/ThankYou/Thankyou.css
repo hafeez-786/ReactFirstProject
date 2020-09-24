@@ -1,0 +1,55 @@
+.body-block {
+    height: 401px;
+    position: relative;
+}
+.Thankyou-block {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Thankyou-block img {
+    width: 50px;
+    height: auto;
+    max-width: 100%;
+}
+.Thankyou-block h1 {
+    font-size: 4rem;
+    font-family: cursive;
+    margin: 1rem;
+    margin-top: 5px;
+}
+.Thankyou-block .btn {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.Thankyou-block .btn:hover {
+  background: rgb(113, 0, 91)!important;
+}
+
+
+@media(min-width:414px) {
+    .Footer-block {margin-top: 11.5rem;}
+}
+@media(max-width:375px) {
+    .Footer-block {margin-top: 7rem;}
+}
+@media(max-width:320px) {
+    .Thankyou-block {
+        width: 100%;
+        padding: 15px;
+    }
+    .Thankyou-block h1 {font-size: 3rem;}
+    .Footer-block {margin-top: 0;}
+}
+
+@media(min-width:900px) {
+    .Footer-block {margin-top: 5rem!important;}
+}

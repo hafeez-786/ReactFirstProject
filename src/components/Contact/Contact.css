@@ -1,0 +1,65 @@
+.mgTop {
+    margin-top: 110px;
+}
+
+.mBottom {
+    margin-bottom: 2rem;
+}
+
+h1.contact-heading {
+    font-family: cursive;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.form-block .form-group label {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 600;
+}
+.form-block .form-group textarea {
+    min-height: 200px;
+}
+.form-block .form-group .text-danger {
+    margin-bottom: 0;
+}
+.form-block .form-group .form-control:focus,
+.form-block .form-group .form-control:active,
+.form-block .form-group .form-control:visited {
+    border-color: #ff14d2;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-block .btn {
+    background: #521751;
+    color: white;
+    box-shadow: none;
+    border-color: #521751;
+    transition: none;
+    width: 200px;
+    max-width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+}
+.form-block .btn:focus,
+.form-block .btn:active,
+.form-block .btn:visited,
+.form-block .btn:visited {
+    background-color: #521751!important;
+    border-color: #521751!important;
+    transition: none!important;
+    box-shadow: none!important;
+}
+
+
+@media(max-width:767px) {
+    .Footer-block {
+        margin-top: 3rem!important;
+    }
+}
+
+@media(max-width:768px) {
+    .Footer-block {
+        margin-top: 14.7rem;
+    }
+}

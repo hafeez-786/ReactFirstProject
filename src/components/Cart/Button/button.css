@@ -1,0 +1,38 @@
+.Quantity-button .input-group-prepend,
+.Quantity-button .input-group-append {
+    display: inline-block;
+}
+.Quantity-button .input-box {
+    width: 25%;
+    height: 38px;
+    vertical-align: middle;
+    text-align: center;
+}
+.Quantity-button .btn-outline-primary {
+    border-radius: 0;
+    height: 38px;
+    border: 1px solid #521751;
+    color: #521751;
+}
+.Quantity-button .btn-outline-primary:hover,
+.Quantity-button .btn-outline-primary:active,
+.Quantity-button .btn-outline-primary:visited,
+.Quantity-button .btn-outline-primary:focus {
+    background: #521751 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border-color: #521751 !important;
+    transition: none !important;
+}
+
+@media(max-width:768px) {
+    .Quantity-button .input-group-prepend,
+    .Quantity-button .input-group-append {
+    display: block;
+    }
+    .Quantity-button .btn-outline-primary,
+    .Quantity-button .input-box {
+      width: 100%;
+      font-weight: 600;
+    }
+}

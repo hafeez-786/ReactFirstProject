@@ -1,0 +1,64 @@
+.mt-bg {
+    background-color: #f8f9fa!important;
+    margin-top: 55px;
+    padding: 4rem 0;
+}
+.cart-left-block .btn,
+.cart-bock .btn {
+    background: #521751;
+    color: white;
+    width: 100%;
+    border: 1px solid #521751;
+}
+.cart-left-block .btn, .cart-bock .btn:hover {
+    background-color: white!important;
+    color: #521751 !important;
+}
+.cart-bock .btn, .cart-left-block .btn-primary:hover,
+.cart-left-block .btn-primary:active,
+.cart-left-block .btn-primary:visited,
+.cart-left-block .btn-primary:focus {
+    background: #521751 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border-color: #521751 !important;
+    transition: none !important;
+}
+.Coupon-block {
+    margin-top: 30px;
+}
+.Coupon-block .cart-left-block h2 {
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.Coupon-block .cart-left-block .btn {
+    vertical-align: bottom;
+    margin-top: 94px;
+}
+.cart-total-right-block h2.heading {
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.no-pad {padding: 0;}
+.padng-right {
+    padding-right: 30px;
+}
+.cart-bock table td {border-top: none;}
+.cart-bock table td.left-align {text-align: left;}
+.cart-bock table td.right-align {text-align: right;}
+
+@media(max-width:767px) {
+    .Coupon-block .cart-left-block .btn {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .cart-total-right-block {
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+    .mgtop, .mt-bg {
+        margin-top: 30px;
+    }
+    .cart-bock {padding: 0px}
+}

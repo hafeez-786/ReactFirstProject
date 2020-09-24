@@ -1,0 +1,51 @@
+.mgTop {
+    margin-top: 110px;
+}
+.heading {
+    font-family: cursive;
+    font-size: 2rem;
+}
+.mb {
+    margin-bottom: 1.5rem;
+}
+.mb1 {
+    margin-bottom: 3rem;
+}
+.mrgn-top {
+    margin-top: 3rem;
+}
+.p-lg-5 {
+    padding: 3rem;
+}
+.p-top {
+    padding-top:15px;
+}
+
+.border {
+    border: 1px solid #dee2e6!important
+}
+
+.CommonBtn {
+    cursor: pointer;
+    background: #521751 !important;
+    color: white !important;
+    box-shadow: none !important;
+    border-color: #521751 !important;
+    transition: none !important;
+    width: 100%;
+}
+.noPad {
+    padding: 0;
+}
+.pad-ryt {
+    padding-right: 0;
+}
+
+@media(max-width: 768px) {
+    .p-lg-5 {padding: 2rem;}
+    .heading {margin-top: 1.5rem; font-size: 1.7rem;}
+    .Coupon-blk .btn { margin-top: 20px;}
+    .Coupon-blk .pad-ryt {padding-left: 0;}
+    .mgTop {margin-top: 70px;}
+    .mrgn-top {margin-top: 1rem;}
+}

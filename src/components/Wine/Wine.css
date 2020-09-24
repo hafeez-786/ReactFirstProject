@@ -1,0 +1,20 @@
+.WineShop .Product-block {
+    margin-top: 120px;
+}
+.WineShop .Products-heading {
+    display: none;
+}
+.WineShop .Products-heading1 {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.WineShop .Products-heading1 h1 {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+@media (max-width:767px) {
+    .WineShop .Product-block {margin-top: 0;}
+    .WineShop .Products-heading1 {margin-bottom: 100px;}
+}

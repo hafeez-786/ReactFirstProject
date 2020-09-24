@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "image": "https://colorlib.com/preview/theme/wines/images/wine_1.png",
+        "product": "Trius Cabernet France 2011",
+        "price": "$629.00",
+        "total": "$500.00"
+    },
+    {
+        "id": 2,
+        "image": "https://colorlib.com/preview/theme/wines/images/wine_2.png",
+        "product": "Trius Cabernet France 2011",
+        "price": "$600.00",
+        "total": "$550.00"
+    }
+]

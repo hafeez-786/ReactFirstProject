@@ -1,0 +1,40 @@
+.about-banner {
+    display: flex;
+    background: url('./banner.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.Banner-text p,
+.Banner-text h1 {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.Banner-text h1 {
+    font-size: 3rem;
+}
+.Banner-text h1 > span {
+	line-height: .7;
+	text-shadow: 0 0 2px rgba(0, 0, 0, .45);
+	animation: span 3s ease-in infinite alternate;
+}
+
+@keyframes span {
+	0%,10%{ margin: 0 15px; }
+	
+}
+
+@media (max-width:768px) {
+    .Banner-text h1 {
+        font-size: 1.5rem;
+    }
+    .Banner-text h1 > span {
+        animation: none;
+    }
+}
